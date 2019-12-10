@@ -31,6 +31,7 @@ public void Reset()
     btnReset.interactable = false;
     result.text = "Result";
 }
+
 private float AddNumbers()
 {
     float tempResult = float.Parse(firstNumber.text) - float.Parse(secondNumber.text);
