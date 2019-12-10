@@ -6,6 +6,7 @@ Code bei dem man 2 Zahlen addieren und berechnen lassen kann.
 ----
 Hilfe von ThomasJunger.
 Refactoring im Team mit Valerian Tschopp, Anna Wenger und Sarah Glavan.
+Nach Refoctoring im Team, vergleichen des Codes mit ThomasJunger.
 
 ---
 Update:
