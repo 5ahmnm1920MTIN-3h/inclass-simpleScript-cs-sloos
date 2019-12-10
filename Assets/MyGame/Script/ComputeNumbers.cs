@@ -11,6 +11,7 @@ public class ComputeNumbers : MonoBehaviour
     public TMP_InputField secondNumber;
     public Button btnReset;
     public Button btnResult;
+    private const string resultText = "Result";
 
 public void SetResult()
 {
@@ -29,8 +30,8 @@ public void Reset()
     secondNumber.interactable = true;
     btnResult.interactable = true;
     btnReset.interactable = false;
-    result.text = "Result";
-}
+    result.text = resultText;
+   }
 
 private float AddNumbers()
 {
