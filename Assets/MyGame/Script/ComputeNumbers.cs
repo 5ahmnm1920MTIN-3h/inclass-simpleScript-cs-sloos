@@ -30,8 +30,8 @@ public void SetResult()
 public void Reset()
 {
     // reset all textfields
-    firstNumber.text = "0";
-    secondNumber.text = "0";
+    firstNumber.text = "";
+    secondNumber.text = "";
     result.text = resultText;
 
     // give access to the inputfields
