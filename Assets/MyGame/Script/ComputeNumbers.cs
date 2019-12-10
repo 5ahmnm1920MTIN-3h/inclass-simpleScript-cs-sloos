@@ -13,24 +13,34 @@ public class ComputeNumbers : MonoBehaviour
     public Button btnResult;
     private const string resultText = "Result";
 
-public void SetResult()
+public void SetResult() 
 {
+    // set the result
     result.text = SubstractNumbers().ToString();
+
+    // no access inputfiled
     firstNumber.interactable = false;
     secondNumber.interactable = false;
+
+    // activate the currently needed buttons
     btnResult.interactable = false;
     btnReset.interactable = true;
 }
 
 public void Reset()
 {
+    // reset all textfields
     firstNumber.text = "0";
     secondNumber.text = "0";
+    result.text = resultText;
+
+    // give access to the inputfields
     firstNumber.interactable = true;
     secondNumber.interactable = true;
+
+    // activate the currently needed buttons
     btnResult.interactable = true;
     btnReset.interactable = false;
-    result.text = resultText;
 }
 
 private float SubstractNumbers()
